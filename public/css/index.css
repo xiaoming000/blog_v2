@@ -1,0 +1,49 @@
+.header{
+	background-color: #d4edda ;
+	height: 100px;
+	/*color: white;*/
+}
+.header .blog_name{
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px 0px 10px 0px;
+}
+.header .big{
+	font-size: 48px;
+}
+.header .small{
+	font-size: 24px;
+}
+.header .header_nav{
+	background-color: #212529;
+}
+.middle{
+	padding-top: 50px;
+	max-width: 1260px;
+	height: 1000px;
+	margin: 0px auto;
+}
+.middle a:hover,a:active{
+	color: red;
+	text-decoration: none;16
+}
+.middle a:link{
+	color: #00a67c;
+}
+.midel .toptip{
+	
+}
+.middle .notice{
+	padding-left: 75px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+.middle .notice_word{
+	padding-left:20px;
+}
+.middle .login_button{
+	padding-top: 5px;
+	padding-right: 75px;
+
+}

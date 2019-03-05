@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+/*----------------博客前台----------------*/
+
+// 主页
+Route::get("/", "Home\IndexController@index");
