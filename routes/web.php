@@ -19,3 +19,5 @@
 
 // 主页
 Route::get("/", "Home\IndexController@index");
+// 文章详情页
+Route::get("/article", "Home\ArticlesController@index");

@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Home;
 
 use Illuminate\Routing\Controller as BaseController;
 
-class IndexController extends BaseController{
+class ArticlesController extends BaseController{
 
 	public function index(){
 		return view('home.article');

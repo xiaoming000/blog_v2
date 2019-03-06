@@ -73,8 +73,9 @@
 		<div class="clear" style="clear:both;"></div>
 	</div>
 	@yield('mid')
-
-
+</div>
+<div class="footer">
+	底部信息
 </div>
 </body>
 </html>
