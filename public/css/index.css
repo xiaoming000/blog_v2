@@ -1,3 +1,6 @@
+.clear{ clear:both} 
+
+
 .header{
 	background-color: #d4edda ;
 	height: 100px;
@@ -20,7 +23,7 @@
 .middle{
 	padding-top: 50px;
 	max-width: 1260px;
-	height: 1000px;
+	/*height: 1000px;*/
 	margin: 0px auto;
 }
 .middle a:hover,a:active{
@@ -58,6 +61,7 @@
 }
 
 
+
 .index .sider{
 
 }
@@ -65,4 +69,121 @@
 	background-color: white;
 	height: 150px;
 	margin-bottom: 10px;
+}
+
+.footer{
+	margin-top: 20px;
+	height: 100px;
+	text-align:center;
+	background: #d4edda;
+}
+
+/************文章详情页***********/
+.article{
+	margin-top: 5px;
+}
+.article .content{
+	padding: 0px;
+	background-color: white;
+	height: 800px;
+}
+.article .content .breadcrumbs{
+	padding-left: 20px;
+	height: 35px;
+	line-height: 35px;
+}
+.article .content .breadcrumbs .fa{
+	color: #00a67c;
+}
+.article .content .article-header{
+	padding-left: 20px;
+}
+.article .content .article-header .article-title a {
+    color: #444;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.article .content .article-header .muted{
+	padding-right: 15px;
+}
+.article .content .respons{
+
+}
+.article .comments{
+	margin-top: 5px;
+	background-color: white;
+	/*height: 500px;*/
+}
+.article .comments .respond{
+
+}
+.article .comments .respond .comments-title{
+	background-color: #f7f7f7;
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+}
+.article .comments .respond .comments-title .comt-tip{
+	padding-left: 10px;
+}
+.article .comments .respond .comments-title img{
+	padding-left: 50xp;
+	width: 30px;
+	height: 30px;
+}
+.article .comments .respond .comit-content{
+	margin: 15px;
+}
+.article .comments .respond .comit-form textarea{
+	width: 95%;	
+}
+.article .comments .respond .comit-form .smt{
+	padding-right:80px;
+}
+.article .comments .respond .comit-form .smt button{
+	background-color: #35d2ab;
+}
+.article .comments .respond .comt-comterinfo{
+	padding: 3px 0px 3px 20px;
+}
+.article .comments .respond .comt-comterinfo h4 {
+    float: left;
+    font-size: 18px;
+    line-height: 100px;
+    text-align: right;
+    display: inline;
+    padding-right: 10px;
+}
+.comt-comterinfo ul {
+	float: left;
+	list-style: none;
+    border-left: dotted 1px #ccc;
+    padding-left: 30px;
+/*    border-left: 1px solid black;*/
+}
+.comt-comterinfo li {
+    margin-bottom: 10px;
+    line-height: 20px;
+    /*display: list-item;*/
+    text-align: -webkit-match-parent;
+}
+
+.article .comments .post-comits .comit-num {
+    font-size: 15px;
+    padding: 12px 20px;
+    line-height: 14px;
+    color: #5fbaac;
+    font-weight: 400;
+    border-bottom: 1px solid #dbece8;
+}
+
+
+.article .comments .postcomments .c{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.article .comments .postcomments .c-content{
+	margin-left: 20px;
+	line-height: 30px;
 }
