@@ -30,14 +30,14 @@
 .middle a:link{
 	color: #00a67c;
 }
-.midel .toptip{
-	
+.middle .toptip{
+	background-color: white;	
 }
 .middle .notice{
 	padding-left: 75px;
 	padding-top: 5px;
 	padding-bottom: 10px;
-
+	float:left;
 }
 .middle .notice_word{
 	padding-left:20px;
@@ -45,5 +45,24 @@
 .middle .login_button{
 	padding-top: 5px;
 	padding-right: 75px;
+	float:right;
+}
+/*********************************index***************************/
+.index .carousel{
 
+}
+.index .content .article_list{
+	background-color: white;
+	height: 150px;
+	margin-top: 10px;
+}
+
+
+.index .sider{
+
+}
+.index .sider .sider_list{
+	background-color: white;
+	height: 150px;
+	margin-bottom: 10px;
 }

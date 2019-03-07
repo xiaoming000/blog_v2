@@ -37,21 +37,14 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="collapsibleNavbar" style="color: white;">
 		    <ul class="navbar-nav">
+		    @foreach($category as $key=>$value)
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">PHP</a>
+		        <a class="nav-link" href="#">{{$value->chinese}}</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Python</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">数据库</a>                                                                                          
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">其他技术</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">留言</a>
-		      </li>     
+		    @endforeach
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">留言</a>
+		    </li>   
 		    </ul>
 		  </div> 			
 		</div>		   
@@ -61,12 +54,12 @@
 
 <div class="middle">
 
-	<div class="row border toptip">
-		<div class="col-xl-10 notice">
+	<div class="toptip">
+		<div class="notice">
 			<i class="fa fa-volume-up"></i>
 			<span class="notice_word">欢迎你！</span>			
 		</div>
-		<div class="col-xl-2 login_button">
+		<div class="login_button">
 			<i class="fa fa-user"></i>
 			<a href="">登入</a>
 		</div>
